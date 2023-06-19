@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-hw6"
+version = "0.1.0"
+description = ""
+authors = ["YehorMakeiev <yehor.makeiev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_hw6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^18.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
